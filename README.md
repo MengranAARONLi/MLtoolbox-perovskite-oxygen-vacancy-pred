@@ -1,6 +1,11 @@
 # MLtoolbox for Predicting Oxygen Vacancy of Perovskite
 
 Source code and datasets for the submission of 'Rational design of metal oxides to reduce oxygen at intermediate temperatures'
+
+Zhiheng Li, Xin Mao, Xiaoyong Xu*, Mengran Li*, Yadan Luo, Linzhou Zhuang, Rijia Lin, Desheng Feng, Tianjiu Zhu, Fengli Liang, Helen Huang, Ateeq Ur Rehman, Muhammad Shirjeel Khan, Dong Liu, Zifeng Yan, Aijun Du, Zongping Shao* and Zhonghua Zhu*
+
+
+
 <p align="center">
 <img src="docs/flowchart.png" width="90%">
 </p>
@@ -14,24 +19,68 @@ Slow kinetics of oxygen reduction reaction limit the efficiency of many energy c
 ## Contents
 * [Requirements](#requirements)
 * [Datasets](#datasets)
-* [Usage](#usage)
-  * [Training](#training)
-  * [Testing](#testing)
+* [Demo](#demo)
 <!--   * [Video Demo](#video-demo) -->
 * [Citation](#citation)
 * [Contact](#contact)
 
 ## Requirements
 - Python 3.6
-
+- Then install all the library with: `pip install -r requirement.txt`
 
 
 ### Datasets
+To reproduce the results for oxygen vacancy prediction, we have prepared a cleaned version of data files:
+- `data_Co.xlsx` for Co-based 221 perovskites and 
+- `data_Fe.xlsx` for Fe-based 93 perovskites.
+
+Five attributes are pre-calculated:
+- Polarization
+- Charge
+- Electronegativity
+- Radius A-site
+- Radius B-site
+
+To investigate the detailed list of the perovskites and the procedure of how features are preprocessed, please refer to the folder `data`.
+
+### Demo
+
+We have trained and evaluated 42 regression models on two datasets, with 80% of data used for training and the rest 20% if data for testing. The models are evaluated in a manner of 5-fold cross validation. 
+
+Comprehensive visualisations of regression performance, correlation study are provided. For more details, please refer to the `Demo.ipynb`.
 
 
 
-### Demo code
+---
+## Citation
+If you find this repository useful, please cite our papers:
+```
+@inproceedings{chen2019temporal,
+  title={Temporal attentive alignment for large-scale video domain adaptation},
+  author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan and Woo, Jaekwon and Chen, Ruxin and Zheng, Jian},
+  booktitle={IEEE International Conference on Computer Vision (ICCV)},
+  year={2019},
+  url={https://arxiv.org/abs/1907.12743}
+}
 
-Please refer to the 'Demo.ipynb'.
+@article{chen2019taaan,
+  title={Temporal Attentive Alignment for Video Domain Adaptation},
+  author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
+  journal={CVPR Workshop on Learning from Unlabeled Videos},
+  year={2019},
+  url={https://arxiv.org/abs/1905.10861}
+}
+```
 
+---
+### Acknowledgments
+This work was mainly done with University of Queensland with the guidance of Prof John Zhu and Prof Helen Huang, and the collaboration with China University of Petroleum, Queensland University of Technology, East China University of Science and Technology, Nanjing Tech University, Curtin University.
+
+
+---
+### Contact
+[Mengran Li](https://scholar.google.com/citations?user=lQ3B9ksAAAAJ&hl=en) <br>
+m.li6 AT uq DOT edu.au <br>
+[Yadan Luo](https://scholar.google.com/citations?user=3IfL11AAAAAJ&hl=en) <br>
+y.luo AT uq DOT edu.au <br>
 
