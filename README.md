@@ -53,24 +53,8 @@ Comprehensive visualisations of regression performance, correlation study are pr
 
 ---
 ## Citation
-If you find this repository useful, please cite our papers:
-```
-@inproceedings{chen2019temporal,
-  title={Temporal attentive alignment for large-scale video domain adaptation},
-  author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan and Woo, Jaekwon and Chen, Ruxin and Zheng, Jian},
-  booktitle={IEEE International Conference on Computer Vision (ICCV)},
-  year={2019},
-  url={https://arxiv.org/abs/1907.12743}
-}
+If you find this repository useful, please cite our paper:
 
-@article{chen2019taaan,
-  title={Temporal Attentive Alignment for Video Domain Adaptation},
-  author={Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
-  journal={CVPR Workshop on Learning from Unlabeled Videos},
-  year={2019},
-  url={https://arxiv.org/abs/1905.10861}
-}
-```
 
 ---
 ### Acknowledgments
