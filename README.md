@@ -2,7 +2,7 @@
 
 Source code and datasets for the submission of 'Rational design of metal oxides to reduce oxygen at intermediate temperatures'
 
-Zhiheng Li, Xin Mao, Xiaoyong Xu*, Mengran Li*, Yadan Luo, Linzhou Zhuang, Rijia Lin, Desheng Feng, Tianjiu Zhu, Fengli Liang, Helen Huang, Ateeq Ur Rehman, Muhammad Shirjeel Khan, Dong Liu, Zifeng Yan, Aijun Du, Zongping Shao* and Zhonghua Zhu*
+Zhiheng Li, Xin Mao, Xiaoyong Xu*, Mengran Li*, Yadan Luo*, Linzhou Zhuang, Rijia Lin, Desheng Feng, Tianjiu Zhu, Fengli Liang, Helen Huang, Ateeq Ur Rehman, Muhammad Shirjeel Khan, Dong Liu, Zifeng Yan, Aijun Du, Zongping Shao* and Zhonghua Zhu*
 
 
 
